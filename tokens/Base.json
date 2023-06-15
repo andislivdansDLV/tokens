@@ -377,6 +377,10 @@
         "900": {
           "value": "#161619",
           "type": "color"
+        },
+        "black": {
+          "value": "#000000",
+          "type": "color"
         }
       }
     }
@@ -596,7 +600,7 @@
           "value": "#F8F7F8",
           "type": "color"
         },
-        "-50": {
+        "black": {
           "value": "#000000",
           "type": "color"
         }
@@ -1515,12 +1519,6 @@
           "value": "roundTo({shadow.blur.xx-large.2} / (2 * {shadow.blur.scale}) /1,0) *1",
           "type": "other"
         }
-      }
-    },
-    "spread": {
-      "1": {
-        "value": "{border-width.4}",
-        "type": "other"
       }
     }
   },

@@ -43,6 +43,10 @@
     "900": {
       "value": "{light.palette.grey.900}",
       "type": "color"
+    },
+    "black": {
+      "value": "{light.palette.grey.black}",
+      "type": "color"
     }
   },
   "positive": {

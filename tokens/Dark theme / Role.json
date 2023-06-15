@@ -44,16 +44,12 @@
       "value": "{dark.palette.grey.900}",
       "type": "color"
     },
-    "-50": {
-      "value": "{dark.palette.grey.-50}",
+    "black": {
+      "value": "{dark.palette.grey.black}",
       "type": "color"
     }
   },
   "positive": {
-    "25": {
-      "value": "{dark.palette.green.25}",
-      "type": "color"
-    },
     "50": {
       "value": "{dark.palette.green.50}",
       "type": "color"
@@ -96,10 +92,6 @@
     }
   },
   "warning": {
-    "25": {
-      "value": "{dark.palette.yellow.25}",
-      "type": "color"
-    },
     "50": {
       "value": "{dark.palette.yellow.50}",
       "type": "color"
@@ -142,10 +134,6 @@
     }
   },
   "negative": {
-    "25": {
-      "value": "{dark.palette.red.25}",
-      "type": "color"
-    },
     "50": {
       "value": "{dark.palette.red.50}",
       "type": "color"
@@ -188,10 +176,6 @@
     }
   },
   "accent": {
-    "25": {
-      "value": "{dark.palette.blue.25}",
-      "type": "color"
-    },
     "50": {
       "value": "{dark.palette.blue.50}",
       "type": "color"
@@ -245,11 +229,11 @@
           "type": "other"
         },
         "2": {
-          "value": "roundTo({shadow.opacity.on-bg-primary.1} / {shadow.opacity.scale} /0.01, 0) *0.01",
+          "value": "roundTo({shadow.opacity.1} / {shadow.opacity.scale} /0.01, 0) *0.01",
           "type": "other"
         },
         "3": {
-          "value": "roundTo({shadow.opacity.on-bg-primary.2} / (2*{shadow.opacity.scale}) /0.01, 0) *0.01",
+          "value": "roundTo({shadow.opacity.2} / (2*{shadow.opacity.scale}) /0.01, 0) *0.01",
           "type": "other"
         }
       },
@@ -259,11 +243,11 @@
           "type": "other"
         },
         "2": {
-          "value": "roundTo({shadow.opacity.on-bg-primary.1} / {shadow.opacity.scale} /0.01, 0) *0.01",
+          "value": "roundTo({shadow.opacity.1} / {shadow.opacity.scale} /0.01, 0) *0.01",
           "type": "other"
         },
         "3": {
-          "value": "roundTo({shadow.opacity.on-bg-primary.2} / (2*{shadow.opacity.scale}) /0.01, 0) *0.01",
+          "value": "roundTo({shadow.opacity.2} / (2*{shadow.opacity.scale}) /0.01, 0) *0.01",
           "type": "other"
         }
       },
@@ -273,11 +257,11 @@
           "type": "other"
         },
         "2": {
-          "value": "roundTo({shadow.opacity.on-bg-primary.1} / {shadow.opacity.scale} /0.01, 0) *0.01",
+          "value": "roundTo({shadow.opacity.1} / {shadow.opacity.scale} /0.01, 0) *0.01",
           "type": "other"
         },
         "3": {
-          "value": "roundTo({shadow.opacity.on-bg-primary.2} / (2*{shadow.opacity.scale}) /0.01, 0) *0.01",
+          "value": "roundTo({shadow.opacity.2} / (2*{shadow.opacity.scale}) /0.01, 0) *0.01",
           "type": "other"
         }
       },
@@ -287,11 +271,11 @@
           "type": "other"
         },
         "2": {
-          "value": "roundTo({shadow.opacity.on-bg-primary.1} / {shadow.opacity.scale} /0.01, 0) *0.01",
+          "value": "roundTo({shadow.opacity.1} / {shadow.opacity.scale} /0.01, 0) *0.01",
           "type": "other"
         },
         "3": {
-          "value": "roundTo({shadow.opacity.on-bg-primary.2} / (2*{shadow.opacity.scale}) /0.01, 0) *0.01",
+          "value": "roundTo({shadow.opacity.2} / (2*{shadow.opacity.scale}) /0.01, 0) *0.01",
           "type": "other"
         }
       },
@@ -301,11 +285,11 @@
           "type": "other"
         },
         "2": {
-          "value": "roundTo({shadow.opacity.on-bg-primary.1} / {shadow.opacity.scale} /0.01, 0) *0.01",
+          "value": "roundTo({shadow.opacity.1} / {shadow.opacity.scale} /0.01, 0) *0.01",
           "type": "other"
         },
         "3": {
-          "value": "roundTo({shadow.opacity.on-bg-primary.2} / (2*{shadow.opacity.scale}) /0.01, 0) *0.01",
+          "value": "roundTo({shadow.opacity.2} / (2*{shadow.opacity.scale}) /0.01, 0) *0.01",
           "type": "other"
         }
       },
@@ -315,11 +299,11 @@
           "type": "other"
         },
         "2": {
-          "value": "roundTo({shadow.opacity.on-bg-primary.1} / {shadow.opacity.scale} /0.01, 0) *0.01",
+          "value": "roundTo({shadow.opacity.1} / {shadow.opacity.scale} /0.01, 0) *0.01",
           "type": "other"
         },
         "3": {
-          "value": "roundTo({shadow.opacity.on-bg-primary.2} / (2*{shadow.opacity.scale}) /0.01, 0) *0.01",
+          "value": "roundTo({shadow.opacity.2} / (2*{shadow.opacity.scale}) /0.01, 0) *0.01",
           "type": "other"
         }
       },
@@ -329,11 +313,11 @@
           "type": "other"
         },
         "2": {
-          "value": "roundTo({shadow.opacity.on-bg-primary.1} / {shadow.opacity.scale} /0.01, 0) *0.01",
+          "value": "roundTo({shadow.opacity.1} / {shadow.opacity.scale} /0.01, 0) *0.01",
           "type": "other"
         },
         "3": {
-          "value": "roundTo({shadow.opacity.on-bg-primary.2} / (2*{shadow.opacity.scale}) /0.01, 0) *0.01",
+          "value": "roundTo({shadow.opacity.2} / (2*{shadow.opacity.scale}) /0.01, 0) *0.01",
           "type": "other"
         }
       },
@@ -343,11 +327,11 @@
           "type": "other"
         },
         "2": {
-          "value": "roundTo({shadow.opacity.on-bg-primary.1} / {shadow.opacity.scale} /0.01, 0) *0.01",
+          "value": "roundTo({shadow.opacity.1} / {shadow.opacity.scale} /0.01, 0) *0.01",
           "type": "other"
         },
         "3": {
-          "value": "roundTo({shadow.opacity.on-bg-primary.2} / (2*{shadow.opacity.scale}) /0.01, 0) *0.01",
+          "value": "roundTo({shadow.opacity.2} / (2*{shadow.opacity.scale}) /0.01, 0) *0.01",
           "type": "other"
         }
       },
@@ -357,11 +341,11 @@
           "type": "other"
         },
         "2": {
-          "value": "roundTo({shadow.opacity.on-bg-primary.1} / {shadow.opacity.scale} /0.01, 0) *0.01",
+          "value": "roundTo({shadow.opacity.1} / {shadow.opacity.scale} /0.01, 0) *0.01",
           "type": "other"
         },
         "3": {
-          "value": "roundTo({shadow.opacity.on-bg-primary.2} / (2*{shadow.opacity.scale}) /0.01, 0) *0.01",
+          "value": "roundTo({shadow.opacity.2} / (2*{shadow.opacity.scale}) /0.01, 0) *0.01",
           "type": "other"
         }
       },
@@ -371,11 +355,11 @@
           "type": "other"
         },
         "2": {
-          "value": "roundTo({shadow.opacity.on-bg-primary.1} / {shadow.opacity.scale} /0.01, 0) *0.01",
+          "value": "roundTo({shadow.opacity.1} / {shadow.opacity.scale} /0.01, 0) *0.01",
           "type": "other"
         },
         "3": {
-          "value": "roundTo({shadow.opacity.on-bg-primary.2} / (2*{shadow.opacity.scale}) /0.01, 0) *0.01",
+          "value": "roundTo({shadow.opacity.2} / (2*{shadow.opacity.scale}) /0.01, 0) *0.01",
           "type": "other"
         }
       }

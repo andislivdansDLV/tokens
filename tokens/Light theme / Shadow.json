@@ -1,192 +1,26 @@
 {
   "shadow": {
     "opacity": {
+      "1": {
+        "value": "0.2",
+        "type": "other"
+      },
+      "2": {
+        "value": "roundTo({shadow.opacity.1} / {shadow.opacity.scale} /0.01, 0) *0.01",
+        "type": "other"
+      },
+      "3": {
+        "value": "roundTo({shadow.opacity.2} / (2*{shadow.opacity.scale}) /0.01, 0) *0.01",
+        "type": "other"
+      },
       "scale": {
         "value": "1.125",
         "type": "other"
-      },
-      "on-bg-primary": {
-        "1": {
-          "value": "0.2",
-          "type": "other"
-        },
-        "2": {
-          "value": "roundTo({shadow.opacity.on-bg-primary.1} / {shadow.opacity.scale} /0.01, 0) *0.01",
-          "type": "other"
-        },
-        "3": {
-          "value": "roundTo({shadow.opacity.on-bg-primary.2} / (2*{shadow.opacity.scale}) /0.01, 0) *0.01",
-          "type": "other"
-        }
-      },
-      "on-bg-secondary": {
-        "1": {
-          "value": "0.21",
-          "type": "other"
-        },
-        "2": {
-          "value": "roundTo({shadow.opacity.on-bg-secondary.1} / {shadow.opacity.scale} /0.01, 0) *0.01",
-          "type": "other"
-        },
-        "3": {
-          "value": "roundTo({shadow.opacity.on-bg-secondary.2} / (2*{shadow.opacity.scale}) /0.01, 0) *0.01",
-          "type": "other"
-        }
-      },
-      "on-bg-tertiary": {
-        "1": {
-          "value": "0.22",
-          "type": "other"
-        },
-        "2": {
-          "value": "roundTo({shadow.opacity.on-bg-tertiary.1} / {shadow.opacity.scale} /0.01, 0) *0.01",
-          "type": "other"
-        },
-        "3": {
-          "value": "roundTo({shadow.opacity.on-bg-tertiary.2} / (2*{shadow.opacity.scale}) /0.01, 0) *0.01",
-          "type": "other"
-        }
-      },
-      "on-bg-quaternary": {
-        "1": {
-          "value": "0.22",
-          "type": "other"
-        },
-        "2": {
-          "value": "roundTo({shadow.opacity.on-bg-quaternary.1} / {shadow.opacity.scale} /0.01, 0) *0.01",
-          "type": "other"
-        },
-        "3": {
-          "value": "roundTo({shadow.opacity.on-bg-quaternary.2} / (2*{shadow.opacity.scale}) /0.01, 0) *0.01",
-          "type": "other"
-        }
-      },
-      "on-bg-quinary": {
-        "1": {
-          "value": "0.28",
-          "type": "other"
-        },
-        "2": {
-          "value": "roundTo({shadow.opacity.on-bg-quinary.1} / {shadow.opacity.scale} /0.01, 0) *0.01",
-          "type": "other"
-        },
-        "3": {
-          "value": "roundTo({shadow.opacity.on-bg-quinary.2} / (2*{shadow.opacity.scale}) /0.01, 0) *0.01",
-          "type": "other"
-        }
-      },
-      "on-bg-primary-inverse": {
-        "1": {
-          "value": "1",
-          "type": "other"
-        },
-        "2": {
-          "value": "roundTo({shadow.opacity.on-bg-primary-inverse.1} / {shadow.opacity.scale} /0.01, 0) *0.01",
-          "type": "other"
-        },
-        "3": {
-          "value": "roundTo({shadow.opacity.on-bg-primary-inverse.2} / (2*{shadow.opacity.scale}) /0.01, 0) *0.01",
-          "type": "other"
-        }
-      },
-      "on-bg-secondary-inverse": {
-        "1": {
-          "value": "0.22",
-          "type": "other"
-        },
-        "2": {
-          "value": "roundTo({shadow.opacity.on-bg-secondary-inverse.1} / {shadow.opacity.scale} /0.01, 0) *0.01",
-          "type": "other"
-        },
-        "3": {
-          "value": "roundTo({shadow.opacity.on-bg-secondary-inverse.2} / (2*{shadow.opacity.scale}) /0.01, 0) *0.01",
-          "type": "other"
-        }
-      },
-      "on-bg-tertiary-inverse": {
-        "1": {
-          "value": "0.19",
-          "type": "other"
-        },
-        "2": {
-          "value": "roundTo({shadow.opacity.on-bg-tertiary-inverse.1} / {shadow.opacity.scale} /0.01, 0) *0.01",
-          "type": "other"
-        },
-        "3": {
-          "value": "roundTo({shadow.opacity.on-bg-tertiary-inverse.2} / (2*{shadow.opacity.scale}) /0.01, 0) *0.01",
-          "type": "other"
-        }
-      },
-      "on-bg-quaternary-inverse": {
-        "1": {
-          "value": "0.21",
-          "type": "other"
-        },
-        "2": {
-          "value": "roundTo({shadow.opacity.on-bg-quaternary-inverse.1} / {shadow.opacity.scale} /0.01, 0) *0.01",
-          "type": "other"
-        },
-        "3": {
-          "value": "roundTo({shadow.opacity.on-bg-quaternary-inverse.2} / (2*{shadow.opacity.scale}) /0.01, 0) *0.01",
-          "type": "other"
-        }
-      },
-      "on-bg-quinary-inverse": {
-        "1": {
-          "value": "0.21",
-          "type": "other"
-        },
-        "2": {
-          "value": "roundTo({shadow.opacity.on-bg-quinary-inverse.1} / {shadow.opacity.scale} /0.01, 0) *0.01",
-          "type": "other"
-        },
-        "3": {
-          "value": "roundTo({shadow.opacity.on-bg-quinary-inverse.2} / (2*{shadow.opacity.scale}) /0.01, 0) *0.01",
-          "type": "other"
-        }
       }
     },
     "color": {
-      "on-bg-primary": {
-        "value": "{neutral.500}",
-        "type": "other"
-      },
-      "on-bg-secondary": {
-        "value": "{neutral.500}",
-        "type": "other"
-      },
-      "on-bg-tertiary": {
-        "value": "{neutral.500}",
-        "type": "other"
-      },
-      "on-bg-quaternary": {
-        "value": "{neutral.600}",
-        "type": "other"
-      },
-      "on-bg-quinary": {
-        "value": "{neutral.700}",
-        "type": "other"
-      },
-      "on-bg-primary-inverse": {
-        "value": "{neutral.1000}",
-        "type": "other"
-      },
-      "on-bg-secondary-inverse": {
-        "value": "{neutral.1000}",
-        "type": "other"
-      },
-      "on-bg-tertiary-inverse": {
-        "value": "{neutral.900}",
-        "type": "other"
-      },
-      "on-bg-quaternary-inverse": {
-        "value": "{neutral.800}",
-        "type": "other"
-      },
-      "on-bg-quinary-inverse": {
-        "value": "{neutral.800}",
-        "type": "other"
-      }
+      "value": "{neutral.black}",
+      "type": "other"
     }
   }
 }
