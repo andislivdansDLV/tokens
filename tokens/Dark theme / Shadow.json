@@ -1,66 +1,26 @@
 {
   "shadow": {
     "opacity": {
+      "1": {
+        "value": "1",
+        "type": "other"
+      },
+      "2": {
+        "value": "roundTo({shadow.opacity.1} / {shadow.opacity.scale} /0.01, 0) *0.01",
+        "type": "other"
+      },
+      "3": {
+        "value": "roundTo({shadow.opacity.2} / (2*{shadow.opacity.scale}) /0.01, 0) *0.01",
+        "type": "other"
+      },
       "scale": {
         "value": "1.125",
         "type": "other"
-      },
-      "on-bg-primary": {
-        "1": {
-          "value": "1",
-          "type": "other"
-        },
-        "2": {
-          "value": "roundTo({shadow.opacity.1} / {shadow.opacity.scale} /0.01, 0) *0.01",
-          "type": "other"
-        },
-        "3": {
-          "value": "roundTo({shadow.opacity.2} / (2*{shadow.opacity.scale}) /0.01, 0) *0.01",
-          "type": "other"
-        }
       }
     },
     "color": {
-      "on-bg-primary": {
-        "value": "{neutral.0}",
-        "type": "other"
-      },
-      "on-bg-secondary": {
-        "value": "{neutral.0}",
-        "type": "other"
-      },
-      "on-bg-tertiary": {
-        "value": "{neutral.25}",
-        "type": "other"
-      },
-      "on-bg-quaternary": {
-        "value": "{neutral.50}",
-        "type": "other"
-      },
-      "on-bg-quinary": {
-        "value": "{neutral.50}",
-        "type": "other"
-      },
-      "on-bg-primary-inverse": {
-        "value": "{neutral.400}",
-        "type": "other"
-      },
-      "on-bg-secondary-inverse": {
-        "value": "{neutral.300}",
-        "type": "other"
-      },
-      "on-bg-tertiary-inverse": {
-        "value": "{neutral.200}",
-        "type": "other"
-      },
-      "on-bg-quaternary-inverse": {
-        "value": "{neutral.100}",
-        "type": "other"
-      },
-      "on-bg-quinary-inverse": {
-        "value": "{neutral.50}",
-        "type": "other"
-      }
+      "value": "{neutral.black}",
+      "type": "other"
     }
   }
 }

@@ -377,10 +377,6 @@
         "900": {
           "value": "#161619",
           "type": "color"
-        },
-        "black": {
-          "value": "#000000",
-          "type": "color"
         }
       }
     }
